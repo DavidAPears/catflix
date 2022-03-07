@@ -1,6 +1,6 @@
-# Catflix
+# Catflix - the cat info and tracking app
 
-![Screen Grab - Catflix](https://i.postimg.cc/K810jP6v/Screenshot-2021-10-02-at-14-59-48.png)
+![Screen Grab - Catflix](https://i.postimg.cc/prgRGKqk/Screenshot-2022-03-07-at-19-28-15.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
