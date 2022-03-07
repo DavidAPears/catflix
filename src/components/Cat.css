@@ -1,0 +1,80 @@
+.cat {
+    margin: 10px;
+    width: 200px;
+}
+
+.cat-card {
+width: 100%;
+max-height:300px;
+}
+
+.cat__button {
+
+}
+
+.cat-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: white;
+    margin-left: 10px;
+}
+.cat-details {
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    color: white;
+    margin-left: 10px;
+}
+.cat-details > div {
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    color: white
+}
+
+
+.cat__poster {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x:scroll;
+}
+
+.cat__poster::-webkit-scrollbar{
+    display: none
+}
+
+.cat__poster{
+    object-fit: contain;
+    width: 100%;
+    max-height:100px;
+    transition: transform 450ms
+}
+
+.cat__poster:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+.card__buttons{
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.card__button {
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51,51,51,0.5);
+}
+
+.card__button:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+
